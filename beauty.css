@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+header a:last-child {
+    border-right: none;
+}
+.SearchInput {
+    float: right;
+    padding-top: 75px;
+    padding-right: 35px;
+    margin: 0;
+}
+.input1 {
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+    margin: -5px;
+    height: 32.5px;
+    width: 175px;
+    border-style: inherit;
+    background-color: black;
+    color: white;
+    padding-left: 7.5px;
+}
+.btn1 {
+    border-top-right-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+    height: 35px;
+    width: 65px;
+    border-style: groove;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+}
+.Main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: black;
+    align-items: center;
+    padding-left: 25px;
+    height: 70px;
+}
+.Main a {
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+.Main a:last-child {
+    border-right: none;
+}
+.banner-text {
+    width: 65%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 70px;
+    font-size: 30px;
+
+}
+.Name {
+    border-radius: 5px;
+    background-color: rgb(17, 17, 17);
+    border-style: groove;
+    border-color: black;
+    width: 200px;
+    height: 35px;
+    align-items: center;
+    padding-left: 7.5px;
+}
+.Email {
+    border-radius: 5px;
+    background-color: rgb(17, 17, 17);
+    border-style: groove;
+    border-color: black;
+    width: 200px;
+    height: 35px;
+    align-items: center;
+    padding-left: 7.5px;
+}
+.Message {
+    border-radius: 5px;
+    background-color: rgb(17, 17, 17);
+    border-style: groove;
+    border-color: black;
+    width: 200px;
+    height: 100px;
+    text-align: start;
+    padding-left: 7.5px;
+}
+.btn2 {
+    border-radius: 5px;
+    height: 35px;
+    width: 75px;
+    border-style: groove;
+    border-color: black;
+    background-color: rgb(59, 203, 255);
+    color: white;
+    font-size: 15px;
+}
+.Littlecard1 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Littlecard1:hover {
+    transform: translateY(-10px);
+}
+.Littlecard2 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Littlecard2:hover {
+    transform: translateY(-10px);
+}
+.Littlecard3 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Littlecard3:hover {
+    transform: translateY(-10px);
+}
+.Littlecard4 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Littlecard4:hover {
+    transform: translateY(-10px);
+}
+.Card1 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Card1:hover {
+    transform: translateY(-10px);
+}
+.Card2 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Card2:hover {
+    transform: translateY(-10px);
+}
+.Card3 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Card3:hover {
+    transform: translateY(-10px);
+}
+.Card4 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Card4:hover {
+    transform: translateY(-10px);
+}
+.Card12 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Card12:hover {
+    transform: translateY(-10px);
+}
+.Card22 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Card22:hover {
+    transform: translateY(-10px);
+}
+.Card32 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Card32:hover {
+    transform: translateY(-10px);
+}
+.Card42 {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.Card42:hover {
+    transform: translateY(-10px);
+}
